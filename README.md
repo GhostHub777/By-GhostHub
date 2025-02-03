@@ -1,5 +1,5 @@
-local Logo1 = "https://create.roblox.com/store/asset/79058330823613/Ghost-Logo";
-local Logo2 = "https://create.roblox.com/store/asset/79058330823613/Ghost-Logo";
+local Logo1 = "rbxassetid://15298567397";
+local Logo2 = "rbxassetid://17382040552";
 
 local Name = "Ghost Hub : Blox Fruits";
 local Folder = "GhostHub-BloxFruits.json";
@@ -10,8 +10,10 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/realr
 local Window = Library:MakeWindow({Name, Credits, Folder})
   
 local Tabs = {
+
   MainFarm = Window:MakeTab({"Farm", "Home"}),
   Sea = Window:MakeTab({"Sea", "Waves"}),
+,
   Islands = Window:MakeTab({"Islands", "PalmTree"}),
   Items = Window:MakeTab({"Quests/Items", "Swords"}),
   FruitRaid = Window:MakeTab({"Fruit/Raid", "Cherry"}),
@@ -29,6 +31,12 @@ Window:AddMinimizeButton({
   Button = { Image = Logo1, BackgroundTransparency = 0 },
   Corner = { CornerRadius = UDim.new(0, 6) }
 })
+
+
+
+
+
+
 
 
   })
