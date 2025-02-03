@@ -1,5 +1,5 @@
-local Logo1 = "rbxassetid://79058330823613";
-local Logo2 = "rbxassetid://79058330823613";
+local Logo1 = "[rbxassetid://79058330823613](https://create.roblox.com/store/asset/79058330823613/Ghost-Logo)";
+local Logo2 = "[rbxassetid://79058330823613](https://create.roblox.com/store/asset/79058330823613/Ghost-Logo)";
 
 local Name = "Ghost Hub : Blox Fruits";
 local Folder = "GhostHub-BloxFruits.json";
