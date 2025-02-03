@@ -10,10 +10,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/realr
 local Window = Library:MakeWindow({Name, Credits, Folder})
   
 local Tabs = {
-  Discord = Window:MakeTab({"Discord", "Info"}),
   MainFarm = Window:MakeTab({"Farm", "Home"}),
   Sea = Window:MakeTab({"Sea", "Waves"}),
-  RaceV4 = Window:MakeTab({"Race-V4", ""}),
   Islands = Window:MakeTab({"Islands", "PalmTree"}),
   Items = Window:MakeTab({"Quests/Items", "Swords"}),
   FruitRaid = Window:MakeTab({"Fruit/Raid", "Cherry"}),
@@ -32,13 +30,7 @@ Window:AddMinimizeButton({
   Corner = { CornerRadius = UDim.new(0, 6) }
 })
 
-local Discord = Tabs.Discord do
-  -- Join our discord community to receive Information about the next update, leaks, and Information about Blox Fruits!
-  Discord:AddDiscordInvite({
-    Name = "Ghost Hub | Community",
-    Description = "Join our discord community to receive information about the next update",
-    Logo = Logo2,
-    Invite = DiscordInvite
+
   })
   
   Discord:AddSection("")
